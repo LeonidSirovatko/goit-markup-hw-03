@@ -1,4 +1,3 @@
-/* ==================== HEADER ==================== */
 .header {
     padding: 16px;
     background-color: #ffffff;
@@ -8,12 +7,11 @@
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17;
+    line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
-    display: inline-block;
-    margin-bottom: 8px;
+    /* Del display and margin bottom and change line height = 1.33 */
 }
 
 .logo-span {
@@ -30,8 +28,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    display: inline-block;
-    padding: 4px 0;
+/* Убирал text and pudding */   
 }
 
 .nav .nav-link:hover,
@@ -40,7 +37,7 @@
     color: #404bbf;
 }
 
-/* Стили из вашей картинки для контактов */
+/* Стили картинки для контактов */
 .address {
     font-style: normal;
 }
@@ -51,8 +48,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455; /* Базовый серый цвет ссылок */
-    display: inline-block;
-    padding: 2px 0;
+    /* Del display and padding */
     transition: color 250ms cubic-bezier(0.4, 0, 0, 0.2); /* Плавное изменение цвета */
 }
 

@@ -1,40 +1,36 @@
 .team {
     background-color: #f4f4fd;
-    padding: 40px 16px;
-    text-align: center;
+    /* Внутренние отступы (padding) и центрирование (text-align) удалены */
 }
 
-.team h2 {
-    font-size: 28px;
+.team-title {
+    font-size: 36px;          /* Исправлено с 28px на 36px */
+    line-height: 1.11;        /* Добавлено: 36px * 1.1111 ≈ 40px */
+    letter-spacing: 0.02em;   /* Добавлено по макету */
     color: #2e2f42;
-    margin-bottom: 24px;
+    text-align: center;        /* Добавлено по макету */
 }
 
-.team li {
+.team-item {
     background-color: #ffffff;
-    margin-bottom: 24px;
-    padding-bottom: 16px;
-    border-radius: 0 0 4px 4px;
-    box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08);
+    /* Геометрия удалена: margin, padding, border-radius и box-shadow убраны */
 }
 
-.team img {
-    display: block;
-    margin: 0 ;
-    
-}
-
-.team h3 {
+.team-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;   /* Добавлено по макету */
     color: #2e2f42;
-    margin-top: 16px;
-    margin-bottom: 8px;
+    text-align: center;        /* Добавлено по макету */
+    /* Внешние отступы (margin-top/bottom) удалены */
 }
 
-.team p {
+.team-text {
     font-size: 16px;
     line-height: 1.5;
-    margin-bottom: 8px;
+    letter-spacing: 0.02em;   /* Добавлено по макету */
+    color: #434455;           /* Базовый серый цвет текста */
+    text-align: center;        /* Добавлено по макету */
+    /* Внешние отступы (margin-bottom) удалены */
 }

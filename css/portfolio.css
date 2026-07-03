@@ -1,28 +1,30 @@
-.portfolio {
-    padding: 40px 16px;
-}
-
-.portfolio h2 {
-    font-size: 28px;
+.portfolio-title {
+    font-size: 36px;          /* Исправлено с 28px на 36px */
+    line-height: 1.11;        /* Добавлено: 36px * 1.11 ≈ 40px */
+    letter-spacing: 0.02em;   /* Добавлено по макету */
     color: #2e2f42;
-    margin-bottom: 24px;
-    text-align: center;
+    text-align: center;        /* Добавлено по макету */
+    /* Внешние отступы и выравнивание удалены */
 }
 
-.portfolio li {
-    margin-bottom: 24px;
+.portfolio-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
-.portfolio h3 {
+.portfolio-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;   /* Добавлено по макету */
     color: #2e2f42;
-    margin-top: 12px;
-    margin-bottom: 4px;
+    /* Внешние отступы (margin-top/bottom) удалены */
 }
 
-.portfolio p {
+.portfolio-text {
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;   /* Добавлено по макету */
+    color: #434455;           /* Базовый серый цвет описания */
 }
